@@ -5,7 +5,7 @@ def browser_init(context):
     """
     :param context: Behave context
     """
-    context.driver = webdriver.Chrome()
+    context.driver = webdriver.Chrome(executable_path='C:\\Users\\artby\\OneDrive\\Desktop\\Automation\\python-selenium-automation\\chromedriver.exe')
     # context.browser = webdriver.Safari()
     # context.browser = webdriver.Firefox()
 
@@ -29,4 +29,4 @@ def after_step(context, step):
 
 def after_scenario(context, feature):
     context.driver.delete_all_cookies()
-    context.driver.quit()
+    context.driver.quit() 
