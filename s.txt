@@ -1,0 +1,9 @@
+Amazon logo, search by ID,  "helpsearch"
+Email field, search by ID, "email"
+Continue button, search by ID, "continue"
+Need help link, By.CLASS_NAME, '//span[@class="a-expander-prompt"]'
+Forgot your password link, search by ID, "auth-fpp-link-bottom"
+Other issues with Sign-In link, search by ID, "ap-other-signin-issues-link"
+Create your Amazon account button, search by ID, "createAccountSubmit"
+Conditions of use link, search by XPATH, "//a[contains(@href, 'ref=ap_signin_notification_condition_of_use')]"
+Privacy Notice link, search by XPATH, "//a[contains(@href, 'ref=ap_signin_notification_privacy_notice')]")
